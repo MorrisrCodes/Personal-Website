@@ -71,3 +71,9 @@ $(function() {
     sr.reveal('.other-projects', { viewFactor: 0.05 });
   });
   
+    document.addEventListener('DOMContentLoaded', function() {
+        var audioElement = document.getElementById('background-music');
+        if (audioElement) {
+            audioElement.volume = 0.2; // Set volume to 30% of the maximum
+        }
+    });
