@@ -308,7 +308,7 @@ strong {
 }
 
 .arrow-link:not(:last-child) {
-    margin-right: 30px
+    margin-right: 90px
 }
 .arrow-link:hover:after {
     -webkit-transform: translateX(7px);
