@@ -308,7 +308,7 @@ strong {
 }
 
 .arrow-link:not(:last-child) {
-    margin-right: 90px
+    margin-right: 80px
 }
 .arrow-link:hover:after {
     -webkit-transform: translateX(7px);
@@ -1315,7 +1315,3 @@ html, body {
     align-items: center;
     gap: 15px;
 }
-
-audio {
-    display: none;
-  }
