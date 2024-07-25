@@ -1295,23 +1295,27 @@ html, body {
 
 .top__links {
     display: flex;
-    align-items: center; /* Center align icons vertically */
-    gap: 10px; /* Adjust space between icons */
+    align-items: center;
+    gap: 10px;
 }
 
 .top__links a {
     display: flex;
-    align-items: center; /* Center align text and icon */
+    align-items: center;
     text-decoration: none;
-    color: inherit; /* Ensure text color matches the design */
+    color: inherit;
 }
 
 .top__links img {
-    margin-left: 5px; /* Adjust space between text and icon */
+    margin-left: 5px;
 }
 
 .intro__contact {
     display: flex;
-    align-items: center; /* Center items vertically */
-    gap: 15px; /* Space between text and links */
+    align-items: center;
+    gap: 15px;
 }
+
+audio {
+    display: none;
+  }
