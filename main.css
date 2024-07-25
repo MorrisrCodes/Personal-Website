@@ -307,6 +307,9 @@ strong {
     vertical-align: middle
 }
 
+.arrow-link:not(:last-child) {
+    margin-right: 10px
+}
 .arrow-link:hover:after {
     -webkit-transform: translateX(7px);
     transform: translateX(7px)
